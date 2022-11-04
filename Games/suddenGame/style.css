@@ -1,0 +1,110 @@
+body{
+    background-color: rgba(90, 115, 169, 0.5);
+    font-family: 'Anton', sans-serif;
+}
+
+.ui-dialog-titlebar-close {
+    visibility: hidden;
+}
+
+.titleDiv{
+    position: relative;
+    border: 2px dashed;
+    width: 400px;
+    height: 60px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: rgba(110,127,128,1);
+}
+
+.solidBorder{
+    border: 1px solid black;
+    font-size: 2rem; 
+    padding: 10px;
+}
+
+.gameDiv{
+    position: relative;
+    border: 5px solid black;
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: white;
+}
+
+.gameImgs{
+    width: 150px;
+    height: 100px;
+    position: absolute;
+}
+
+.titleDiv>p{
+    margin : 0;
+}
+
+#wholeDiv{
+    display: flex;
+    flex-direction: row;
+}
+
+#menu{
+    margin-top: 3.5%;
+    margin-left: 2%;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#btnStart:hover{
+    color: red;
+}
+
+#img1{
+    left: 10%;
+    top: 50px
+}
+
+#img2{
+    left: 30%;
+    top: 50px;
+}
+
+#img3{
+    left: 55%;
+    top: 50px;
+}
+
+#img4{
+    left: 75%;
+    top: 50px;
+}
+
+#img5{
+    left: 10%;
+    top: 300px;
+}
+
+#img6{
+    left: 30%;
+    top: 300px;
+}
+
+#img7{
+    left: 55%;
+    top: 300px;
+}
+
+#img8{
+    left: 75%;
+    top: 300px;
+}
+
+#welcomeScreen
+{
+    position: relative;
+}
+
+

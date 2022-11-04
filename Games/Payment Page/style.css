@@ -1,0 +1,56 @@
+
+.ui-dialog-titlebar-close {
+    visibility: hidden;
+}
+
+#paymentDiv{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+#paymentInfoDiv{
+    display: flex;
+    flex-direction: column; 
+}
+
+#paymentInfoDiv > p{
+    margin-top: 5px;
+    margin-left: 20px;
+}   
+
+#paymentTitle{
+    font-family: 'Varela Round';
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+#moneySlider{
+    position: absolute;
+    left: 75%;
+    top: 32.5%;
+}
+
+#price{
+    position: absolute;
+    left: 75%;
+    top: 22.5%;
+}
+
+#name, #email, #gameName{
+    height: 40px;
+    margin: 20px;
+}
+
+#gameName + p{
+    margin-left: 20px;
+}
+
+#shippingMethodDiv{
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+
+

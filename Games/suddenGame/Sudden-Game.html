@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Game</title>
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="/resources/demos/style.css">
+        <link href="style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+        <div class="titleDiv">
+            <p>Catch!</p><p>Help batman catch the joker!!</p>
+        </div>
+        
+        <hr>
+        
+        <div id="welcomeScreen" title="Welcome!">
+            <label for="usrName">Enter your name : </label>
+            <input type="text" id="usrName">
+            <p></p>
+        </div>
+        
+        <div id="scoreScreen" title="Nicely Played!">
+            <p></p>
+        </div>
+        
+        <div id="wholeDiv">
+            <div id="menu">
+                <select id="difficulty">
+                    <option value="none" selected="true" disabled>Select difficulty</option>
+                    <option value="easy">Easy</option>
+                    <option value="medium">Medium</option>
+                    <option value="hard">Hard</option>
+                </select>
+                <p class="solidBorder" id="score">Score: 0</p>
+                <p class="solidBorder" id="timer">Timer: 0:20</p>      
+                <input type="button" value="Start Game" id="btnStart">
+            </div>
+
+            <div class="gameDiv">
+                <img src="img/batlogo.jpg" class="gameImgs" id="img1">
+                <img src="img/batlogo.jpg" class="gameImgs" id="img2">
+                <img src="img/batlogo.jpg" class="gameImgs" id="img3">
+                <img src="img/batlogo.jpg" class="gameImgs" id="img4">
+                <img src="img/batlogo.jpg" class="gameImgs" id="img5">
+                <img src="img/batlogo.jpg" class="gameImgs" id="img6">
+                <img src="img/batlogo.jpg" class="gameImgs" id="img7">
+                <img src="img/batlogo.jpg" class="gameImgs" id="img8">
+            </div>
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,93 @@
+body{
+    background-image: url(Pic/space1.gif);
+}
+.ui-dialog-titlebar-close {
+    visibility: hidden;
+}
+.grid{
+    width: 58%;
+    height: 92%;
+    position: absolute;
+    top: 0px;
+    left: 20%;
+}
+.ground{
+    width: 50px;
+    height: 50px;
+    border: 1px solid navy;
+    position: absolute;
+    background-color: #00303f; 
+    border-color: black;
+    border-top: 10px black solid;
+    border-right: 10px black solid;
+    border-radius: 10px;
+    border-top-right-radius: 19px;
+}
+#starCraft{
+    position: absolute;
+    bottom: 2%;
+    left: 45%;
+    z-index: 11;
+}
+#img1{
+    position: absolute;
+    width: 20%;
+    height: 75%;
+    bottom: 0px;
+}
+#img2{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 20%;
+    height: 75%;
+}
+#star{
+    position: absolute;
+    left: 4%;
+    font-size: 6vw;
+    font-weight: 900;
+    font-family: cursive;
+    color: white;
+}
+#wars{
+    position: absolute;
+    right: 4%;
+    font-size: 6vw;
+    font-weight: 900;
+    font-family: cursive;
+    color: white;
+}
+#enemy{
+    position: absolute;
+    left: 45%;
+    z-index: 15;
+}
+#enemyblood_outer{
+    position: absolute;
+    border: 2px white solid;
+    width: 16%;
+    height: 4%;
+    top: 20%;
+    left: 2%;
+}
+#myblood_outer{
+    position: absolute;
+    border: 2px white solid;
+    width: 16%;
+    height: 4%;
+    top: 20%;
+    right: 2%;
+}
+#myblood{
+    position: absolute;
+    background-color: green;
+    width: 100%;
+    height: 100%;
+}
+#enemyblood{
+    position: absolute;
+    background-color: red;
+    width: 100%;
+    height: 100%;
+}

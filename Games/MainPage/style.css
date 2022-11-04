@@ -1,0 +1,266 @@
+* {
+    padding: 0;
+    margin: 0;
+    user-select: none;
+    text-decoration: none;
+}
+
+.Navbar img {
+    cursor: pointer;
+    width: 6%;
+    height: 90%;
+    position: absolute;
+    display: inline-block;
+    margin-left: 0px;
+    top: 5px;
+    z-index: 51;
+}
+
+.Navbar h1 {
+    cursor: pointer;
+    top: 25px;
+    left: 100px;
+    position: absolute;
+    color: #B467E0;;
+    font-size: 1.9rem;
+    display: inline-block;
+    user-select: none;
+}
+
+.Navbar input {
+    position: absolute;
+    right: 50px;
+    margin-left: 30px;
+    width: 250px;
+    height: 30px;
+    padding: 5px;
+    top: 25px;
+    border: 3px solid;
+    border-right: none;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.Navbar {
+    width: 100%;
+    position: fixed;
+    padding: 10px;
+    background-image: url(Images/nav.png);
+    height: 60px;
+    z-index: 50;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+.Navbar a {
+    user-select: none;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 550;
+    color: antiquewhite;
+}
+
+.Navbar ul {
+    position: absolute;
+    left: 300px;
+    top: 25px;
+    list-style: none;
+}
+
+.Navbar li {
+    width: 200px;
+    height: 100%;
+    text-align: center;
+    display: inline-block;
+    padding: 5px;
+    border-right: solid 4px;
+}
+
+.appContent {
+    position: absolute;
+    color: white;
+    top: 80px;
+    /*background-color: #5090CC;*/
+    background-image: url(Images/back.jpg);
+    background-size: 30% 100%;
+    width: 100%;
+    height: 1600px;
+}
+
+.FirstCard,
+.SecondCard,
+.ThirdCard,
+.FouthCard {
+    position: absolute;
+    width: 25%;
+    height: 35%;
+    background-image: url(Images/thumb-1920-1003220.png);
+    box-shadow: 5px 5px 10px 3px black;
+}
+
+.FirstCard {
+    left: 20%;
+    top: 80px;
+    overflow: hidden;
+}
+
+.SecondCard {
+    left: 55%;
+    top: 80px;
+    overflow: hidden;
+}
+
+.ThirdCard {
+    left: 20%;
+    top: 750px;
+    overflow: hidden;
+}
+
+.FouthCard {
+    left: 55%;
+    top: 750px;
+    overflow: hidden;
+}
+
+.startGame {
+    font-family: 'Yeon Sung', cursive;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 0;
+    width: 100%;
+    font-size: 2.4rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.FourthCardInfo,
+.ThirdCardInfo,
+.SecondCardInfo,
+.FirstCardInfo {
+    font-size: 1.3rem;
+    height: 280px;
+    position: absolute;
+    top: 600px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.FourthCardInfo a,
+.ThirdCardInfo a,
+.SecondCardInfo a,
+.FirstCardInfo a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    user-select: none;
+    color: antiquewhite;
+    padding: 7px;
+    border: solid 2px #FFC828;
+}
+
+.Footer {
+    position: absolute;
+    top: 1600px;
+    width: 100%;
+    height: 250px;
+    background-image: url(Images/nav.png);
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    color: white;
+    
+}
+.footerHead1,.footerHead2,.footerHead3,.footerHead4
+{
+    text-align: center;
+    padding: 17px  10px;
+    font-size: 1.7rem;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+}
+
+.secondFooterCol > div > a:hover{
+    color: white;
+}
+
+.secondFooterCol > div > a{
+    color: #B467E0;
+}
+
+
+.firstFooterCol,.secondFooterCol,.fourthFooterCol,.thirdFooterCol
+{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    padding: 0px 10px;
+    font-size: 1.3rem;
+   
+    justify-content: center;
+}
+.footerHead1::after
+{
+    position: absolute;
+    content: "";
+    width: 40%;
+    height: 3px;
+    left:85px;
+    top: 50px;
+    background-color: #BF900F;
+
+
+}
+.footerHead2::after
+{
+    position: absolute;
+    content: "";
+    width: 80%;
+    height: 3px;
+    left:11px;
+    top: 50px;
+    background-color: #BF900F;
+    
+
+
+}
+.footerHead3::after
+{
+    position: absolute;
+    content: "";
+    width: 85%;
+    height: 3px;
+    left:11px;
+    top: 52px;
+    background-color: #BF900F;
+
+
+}
+.footerHead4::after
+{
+    position: absolute;
+    content: "";
+    width: 65%;
+    height: 3px;
+    left:35px;
+    top: 51px;
+    background-color: #BF900F;
+
+
+}
+
+.footerText{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+
+
+

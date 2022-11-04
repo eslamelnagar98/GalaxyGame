@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Support Us</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="../../jquery-ui-1.12.1.custom/jquery-ui.theme.min.css">
+        <link rel="stylesheet" href="../../jquery-ui-1.12.1.custom/jquery-ui.min.css"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap">   
+        
+    </head>
+
+    <body>
+        <div id="paymentDiv" title="Support us">
+            <p id="paymentTitle">Make Payment</p> 
+
+            <div id="gameInfoDiv">
+                <!-- <input type="text" name="name" id="gameName" style="width:400px" readonly value="Game Name" class="text ui-widget-content ui-corner-all"> -->
+                <select name="speed" id="gameName" style="width: 405px;">
+                    <option selected disabled>Select game</option>
+                    <option>Catch !</option>
+                    <option>Star Wars</option>
+                    <option>Space Race</option>
+                    <option>Puzzle photo</option>
+                </select>
+                <p id="price">Pay 0 EGP</p>
+                <div id="moneySlider" style="width: 150px;">
+            </div>
+            
+
+
+            <div id="paymentInfoDiv">
+                <input type="text" name="name" id="name" style="width:400px" placeholder="Name" class="text ui-widget-content ui-corner-all">
+                <input type="text" name="email" id="email" style="width:400px" placeholder="Email i.e email@example.com" class="text ui-widget-content ui-corner-all">
+            </div>
+
+            <div id="shippingMethodDiv">
+                <label for="radio-1">Home Delivery</label>
+                <input type="radio" name="radioBtn" id="radio-1" class="shippingRadio" value="Home" checked>
+                <label for="radio-2">Pick it up from ITI</label>
+                <input type="radio" name="radioBtn" id="radio-2" class="shippingRadio" value="ITI">
+                <p id="shipHome">We will deliver it in 5 working days.</p>
+                <p id="shipITI">You can pick it up tomorrow.</p>
+            </div>
+
+            <div id="afterPayment" title="Thanks for supporting us!!">
+                <p></p>
+            </div>
+
+        </div>
+
+        <script src="../js/jquery-3.5.1.min.js"></script>
+        <script src="../../jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

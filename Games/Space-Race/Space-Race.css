@@ -1,0 +1,86 @@
+body{
+    background-image: url('Pic/p1.jpg');
+    background-size: cover; 
+    background-blend-mode:hard-light;
+    background-color:rgb(0, 0, 0);
+}
+
+.ui-dialog-titlebar-close {
+    visibility: hidden;
+}
+
+#space{
+    width:609px;
+    height:609px;
+    position: relative;
+    left:400px;
+   overflow: hidden;
+}
+#player1{
+    position: absolute;
+    background-image: url('Pic/rocket2.png');
+    background-size: 100% 100%;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    bottom: 0px;
+    right:130px;
+}
+#player2{
+    background-image: url('Pic/rocket2.png');
+    background-size: cover;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0px;
+    left:130px;
+}
+#timer
+{
+    position: absolute;
+    left:270px;
+    background-color: rgb(62, 207, 252);
+    width:10px;
+    height:150px;
+    bottom:0px;
+}
+#score1{
+    position: absolute;
+    right:50px;
+    bottom:0px;
+    color: cornsilk;
+    font-size: 40px;
+    font-weight: 900;
+}
+#score2{
+    position: absolute;
+    left:50px;
+    bottom:0px;
+    color: cornsilk;
+    font-size: 40px;
+    font-weight: 900;
+}
+.obs{
+    background-image: url('pic/rock1.png');
+    background-size: cover;
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    position: absolute;
+}
+#gameName{
+    position: absolute;
+    left:50px;
+    top:10px;
+}
+h1{
+    font-size: 60px;
+    font-weight: 900;
+    font-family: cursive;
+    color: darkblue;
+}
+
+#welcomeScreen > label,input{
+    margin-top: 10px;
+}
